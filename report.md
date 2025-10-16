@@ -198,8 +198,3 @@ Forecast → Compare with Actual → Check Metrics → Model Drift? → Retrain/
 - Integration with Django allows real-time predictions and dashboards  
 - Continuous monitoring ensures model reliability and adaptability  
 
-**Visual Summary Diagram:**  
-
-Historical Data → Feature Extraction → XGBoost Model → Forecast  
-↓ ↑  
-Actions Taken ← Compare with Actual ← Monitor Performance
