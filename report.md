@@ -153,45 +153,7 @@ Forecast → Compare with Actual → Check Metrics → Model Drift? → Retrain/
 
 ---
 
-## 7. Forecast Example
-
-**Last 8 months of input data:**  
-
-| Date       | Price  |
-|------------|--------|
-| 01-02-2025 | 11313  |
-| 01-03-2025 | 14188  |
-| 01-04-2025 | 14263  |
-| 01-05-2025 | 14263  |
-| 01-06-2025 | 14263  |
-| 01-07-2025 | 16000  |
-| 01-08-2025 | 15025  |
-| 01-09-2025 | 15750  |
-
-**Predicted next 12 months (continuing from last date):**  
-
-| Date       | Forecast |
-|------------|---------|
-| 01-10-2025 | 15800   |
-| 01-11-2025 | 16050   |
-| 01-12-2025 | 16200   |
-| 01-01-2026 | 16350   |
-| 01-02-2026 | 16500   |
-| 01-03-2026 | 16600   |
-| 01-04-2026 | 16750   |
-| 01-05-2026 | 16800   |
-| 01-06-2026 | 16900   |
-| 01-07-2026 | 17000   |
-| 01-08-2026 | 17150   |
-| 01-09-2026 | 17200   |
-
-**Interpretation:**  
-- Predictions continue sequentially from the latest known data  
-- Supports planning, procurement, and pricing decisions  
-
----
-
-## 8. Summary
+## 7. Summary
 
 - XGBoost provides accurate, automated monthly price forecasts  
 - Forecasts enable proactive decision-making to optimize profits  
