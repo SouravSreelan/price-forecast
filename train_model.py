@@ -1,7 +1,7 @@
 import os
 from forecast_app.utils.forecasting import train_and_save_model
 
-csv_path = r"C:\Users\admin\Downloads\price_data.csv"
+csv_path = r"C:\Users\admin\Downloads\price_dataa.csv"
 model_dir = r"D:\My Trials\task\price_forecast"  
 model_path = os.path.join(model_dir, "xgb_price_model.pkl")
 
